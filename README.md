@@ -2,7 +2,7 @@
 
 This repository archives the computational materials supporting the manuscript by **Reza Kazemi** and **Shokoofeh Banihashemi**:
 
-> *A Simulation-to-Estimation Framework for a Neural Roughness Index in Cryptocurrency Volatility: Synthetic Validation, Exploratory Empirical Forecasting, and Computational Evaluation* (CCPE manuscript version 0.25).
+> *A Neural Roughness Index for Cryptocurrency Volatility: Simulation and Empirical Evaluation*
 
 The repository is intended to make the reported simulations, empirical analyses, computational controls, and saved outputs inspectable. It is a research archive, not a production trading system.
 
