@@ -2,9 +2,9 @@
 
 Before setting this repository to Public:
 
-- [ ] Confirm all authors agree to the public release of the code, checkpoint weights, scalers, tables, predictions, and plots.
-- [ ] Select and add a license; `LICENSE_PENDING.md` is intentionally not a license grant.
-- [ ] Confirm the current Binance Data Vision terms for any data use. Raw Kline archives are not hosted here.
+- [x] Both authors confirmed agreement to release the code, checkpoint weights, scalers, tables, predictions, and plots under the scoped licenses documented in this repository.
+- [x] Add scoped licenses: MIT for original code/model artifacts and CC BY 4.0 for original documentation/research outputs, subject to third-party rights; see `LICENSE` and `LICENSE-DATA.md`.
+- [ ] Before public release, re-check applicable Binance Data Vision terms and ensure the empirical data-source notice is current. Raw Kline archives are not hosted here.
 - [ ] Review the manuscript's Data Availability statement and update it to the final GitHub URL and, preferably, a persistent DOI (for example, Zenodo integration) after publication.
 - [ ] Run `python scripts/verify_repository.py` from a clean clone.
 - [ ] Optionally rerun the Fixed-H smoke test with real CPU PyTorch. A full run is computationally intensive.

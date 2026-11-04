@@ -1,9 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript. Update this metadata with the DOI after publication."
-title: "A Simulation-to-Estimation Framework for a Neural Roughness Index in Cryptocurrency Volatility: Synthetic Validation, Exploratory Empirical Forecasting, and Computational Evaluation"
+message: >-
+  If you use the code or computational materials in this repository, please
+  cite this software archive and the associated manuscript. A DOI will be
+  added to this metadata after the versioned archive is deposited in Zenodo.
+title: "CCPE Neural Roughness Index: Research Code and Computational Results"
 version: 1.0.0
 date-released: 2026-11-04
 type: software
+repository-code: "https://github.com/rkazemi76/CCPE_Neural_Roughness_Index"
 authors:
   - family-names: Kazemi
     given-names: Reza
@@ -11,3 +15,16 @@ authors:
   - family-names: Banihashemi
     given-names: Shokoofeh
     affiliation: Department of Financial Mathematics, Allameh Tabataba'i University
+abstract: >-
+  Research code, trained model artifacts, processed empirical inputs, and
+  computational outputs supporting a simulation-calibrated neural roughness
+  index for cryptocurrency volatility, including synthetic validation,
+  exploratory empirical forecasting, smooth-semimartingale diagnostics, and
+  CPU feature-generation benchmarks.
+keywords:
+  - rough volatility
+  - cryptocurrency
+  - neural estimation
+  - realized volatility
+  - reproducible research
+  - computational finance

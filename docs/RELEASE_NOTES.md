@@ -11,3 +11,6 @@
 - Excluded old Xeon/obsolete computational-profile materials, the superseded standalone timing launcher from the empirical scripts folder, smoke-test outputs, pycache, logs, raw Binance downloads, and local virtual environments. The legacy benchmark module remains only in Fixed-H reference dependencies because its numerical definitions are used by the Fixed-H runner.
 
 This is an archive assembly and portability pass. It does not independently rerun all empirical analyses or full Fixed-H inference.
+
+- Added the author-approved scoped licensing notices: MIT for original source code and trained model artifacts; CC BY 4.0 for original documentation and author-created research outputs, excluding third-party materials and underlying source data.
+- Updated `CITATION.cff` with the repository URL and software metadata; DOI remains intentionally unset until Zenodo archival.

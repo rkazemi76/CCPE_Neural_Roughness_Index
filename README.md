@@ -2,7 +2,7 @@
 
 This repository archives the computational materials supporting the manuscript by **Reza Kazemi** and **Shokoofeh Banihashemi**:
 
-> *A Neural Roughness Index for Cryptocurrency Volatility: Simulation and Empirical Evaluation*
+> *A Simulation-to-Estimation Framework for a Neural Roughness Index in Cryptocurrency Volatility: Synthetic Validation, Exploratory Empirical Forecasting, and Computational Evaluation* (CCPE manuscript version 0.25).
 
 The repository is intended to make the reported simulations, empirical analyses, computational controls, and saved outputs inspectable. It is a research archive, not a production trading system.
 
@@ -42,11 +42,26 @@ The archived `results/` directories contain the results used for manuscript repo
 
 ## Data and software licensing
 
-A `LICENSE` file has not been added because the authors have not yet specified the license under which the code, checkpoints, and derived research outputs may be reused. See [`LICENSE_PENDING.md`](LICENSE_PENDING.md). Before treating this repository as an open-source or open-data release, the authors should select and add an appropriate license and confirm that all included materials may be redistributed.
+The authors have agreed to the following scoped licensing arrangement:
+
+- **Original Python source code and trained model artifacts** (including the
+  released checkpoints and scalers): MIT License; see [`LICENSE`](LICENSE).
+- **Original documentation and author-created research outputs** (such as
+  explanatory material, original tables, figures, summaries, and analysis
+  outputs): CC BY 4.0, to the extent the authors hold the relevant rights; see
+  [`LICENSE-DATA.md`](LICENSE-DATA.md).
+- **Third-party material and underlying source data** are not relicensed by
+  these notices. In particular, Binance market data remains subject to the
+  terms of its source service. See
+  [`experiments/empirical/DATA_SOURCES.md`](experiments/empirical/DATA_SOURCES.md).
+
+Where a file contains or reflects third-party material, the license applies
+only to the authors' original contributions, if any, and not to that
+third-party material.
 
 ## Citation
 
-A citation metadata file is provided in [`CITATION.cff`](CITATION.cff). No DOI or public repository URL is asserted here; add those after the repository has been created and the archive has been deposited.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The repository URL is recorded there. A DOI will be added after a versioned release is archived in Zenodo; no DOI is claimed yet.
 
 ## Contact
 

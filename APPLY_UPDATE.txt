@@ -1,0 +1,6 @@
+Apply this update to the existing local repository folder (the folder that contains the hidden .git directory):
+1. Extract this ZIP directly into that repository folder and allow files to be overwritten.
+2. Delete the obsolete LICENSE_PENDING.md file from the repository root if it remains.
+3. Run: python scripts/verify_repository.py
+4. Review the changes in GitHub Desktop, then commit and push.
+The ZIP contains only updated license/citation/README/checklist files and the refreshed checksum manifest; it does not replace your .git folder.
