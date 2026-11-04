@@ -1,0 +1,22 @@
+{
+  "purpose": "Exploratory check whether empirical temporal SD exceeds an approximate constant-H estimator-error reference",
+  "empirical_statistic": "sample SD of H_neural_mean across 57 windows per asset; ensemble average of three frozen seeds",
+  "synthetic_null": "constant-H synthetic predictions from v2.22; one frozen seed-42 W384 estimator; fit linear Hhat~Htrue per generator/noise, resample residuals in sets matching empirical n_contexts",
+  "local_H_band": 0.025,
+  "noise_levels": [
+    0.0375,
+    0.0875
+  ],
+  "generators": [
+    "bss",
+    "rbergomi"
+  ],
+  "bootstrap_reps": 10000,
+  "seed": 987654,
+  "limitations": [
+    "Not a formal p-value or a calibrated state-space test.",
+    "Synthetic contexts are resampled independently and do not preserve temporal dependence across empirical windows.",
+    "Synthetic reference uses a single model seed, whereas the empirical statistic averages three seeds.",
+    "Synthetic generators/noise are only approximations to exchange-market data; the observation noise parameter is not directly identified with market microstructure noise."
+  ]
+}

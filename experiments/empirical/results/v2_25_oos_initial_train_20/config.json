@@ -1,0 +1,34 @@
+{
+  "input_root": "F:\\edu\\Phd\\my paper\\crypto\\code\\upgreate\\Reproducibility_Package_Roughness_Crypto_v0_5_CCPE\\Reproducibility_Package_Roughness_Crypto_v0_5\\inputs\\results_hurst_v2_15_empirical_crypto_multiasset",
+  "v215_script": "F:\\edu\\Phd\\my paper\\crypto\\code\\upgreate\\Reproducibility_Package_Roughness_Crypto_v0_5_CCPE\\Reproducibility_Package_Roughness_Crypto_v0_5\\code\\HurstNeuralEstimator_v2_15_empirical_crypto_multiasset.py",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "start_date": "2024-01-01",
+  "end_date": "2026-09-01",
+  "initial_train_timestamps": 20,
+  "n_usable_timestamps": 56,
+  "n_oos_timestamps": 36,
+  "models": [
+    "Naive_Current_RV",
+    "HAR_RV",
+    "GARCH11_RV",
+    "HAR_RV_plus_Neural_H",
+    "HAR_RV_plus_Variogram_H"
+  ],
+  "evaluation": "expanding-window chronological pooled OLS with asset fixed effects; asset-specific GARCH(1,1) fit on trailing contiguous 1m log returns",
+  "naive_current_rv": "direct persistence forecast: next-day RV = current-day RV",
+  "qlike": "RV forecast; fitted log-RV models use Duan smearing from each training window only",
+  "garch_model": "zero-mean Gaussian-QMLE GARCH(1,1), returns scaled by 1000, 1440-step integrated variance forecast; fixed alpha=.05 beta=.94 fallback if numerical optimization fails",
+  "garch_lookback_days": 90,
+  "garch_min_obs": 20000,
+  "garch_maxiter": 80,
+  "bootstrap": "paired moving-block bootstrap by timestamp; all assets within timestamp kept together",
+  "bootstrap_reps": 10000,
+  "bootstrap_block_length": 3,
+  "seed": 20261023
+}

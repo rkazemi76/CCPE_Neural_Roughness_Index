@@ -1,0 +1,71 @@
+{
+  "validation": "PASS",
+  "method": "recomputed metrics from saved aligned predictions; no refitting and no raw-data download",
+  "windows_are_nested_not_independent": true,
+  "all_windows_share_last_timestamp": true,
+  "runs": [
+    {
+      "configuration": "initial_train_30",
+      "initial_train_timestamps": 30,
+      "oos_timestamps": 26,
+      "n_asset_date_forecasts": 130,
+      "first_oos_timestamp_utc": "2025-06-30T03:12:00+00:00",
+      "last_oos_timestamp_utc": "2026-08-30T19:12:00+00:00",
+      "unique_assets_per_timestamp": [
+        5
+      ],
+      "duplicate_timestamp_symbol_rows": 0,
+      "missing_prediction_or_target_values": 0,
+      "saved_metrics_recomputed_within_tolerance": true,
+      "max_abs_metric_reproduction_error": 2.8466118351389014e-13,
+      "garch_fit_status_counts": [
+        {
+          "status": "ok",
+          "count": 130
+        }
+      ]
+    },
+    {
+      "configuration": "initial_train_25",
+      "initial_train_timestamps": 25,
+      "oos_timestamps": 31,
+      "n_asset_date_forecasts": 155,
+      "first_oos_timestamp_utc": "2025-04-05T19:12:00+00:00",
+      "last_oos_timestamp_utc": "2026-08-30T19:12:00+00:00",
+      "unique_assets_per_timestamp": [
+        5
+      ],
+      "duplicate_timestamp_symbol_rows": 0,
+      "missing_prediction_or_target_values": 0,
+      "saved_metrics_recomputed_within_tolerance": true,
+      "max_abs_metric_reproduction_error": 2.637889906509372e-13,
+      "garch_fit_status_counts": [
+        {
+          "status": "ok",
+          "count": 155
+        }
+      ]
+    },
+    {
+      "configuration": "initial_train_20",
+      "initial_train_timestamps": 20,
+      "oos_timestamps": 36,
+      "n_asset_date_forecasts": 180,
+      "first_oos_timestamp_utc": "2025-01-10T11:12:00+00:00",
+      "last_oos_timestamp_utc": "2026-08-30T19:12:00+00:00",
+      "unique_assets_per_timestamp": [
+        5
+      ],
+      "duplicate_timestamp_symbol_rows": 0,
+      "missing_prediction_or_target_values": 0,
+      "saved_metrics_recomputed_within_tolerance": true,
+      "max_abs_metric_reproduction_error": 2.2870594307278225e-13,
+      "garch_fit_status_counts": [
+        {
+          "status": "ok",
+          "count": 180
+        }
+      ]
+    }
+  ]
+}

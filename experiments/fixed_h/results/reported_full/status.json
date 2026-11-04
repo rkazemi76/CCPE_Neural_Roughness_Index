@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "profile": "full",
+  "neural_executed": true,
+  "interpretation": "New controlled synthetic diagnostic",
+  "rows": 14400,
+  "prediction_rows": 201600,
+  "elapsed_seconds": 437.203301499947
+}

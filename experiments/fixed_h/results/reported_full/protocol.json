@@ -1,0 +1,125 @@
+{
+  "profile": "full",
+  "neural_requested": true,
+  "n_per_generator_H": 200,
+  "root_seed": 48261917,
+  "config": {
+    "n_train": 4000,
+    "n_val": 1000,
+    "n_test": 1500,
+    "seq_len": 768,
+    "h_min": 0.05,
+    "h_max": 0.5,
+    "h_block": 32,
+    "h_phi": 0.97,
+    "h_latent_sd": 2.0,
+    "bss_kernel_lambda": 0.08,
+    "bss_kernel_size": 512,
+    "bss_burn_in": 512,
+    "bss_xi": 0.04,
+    "bss_eta": 1.0,
+    "rb_xi0": 0.04,
+    "rb_eta": 1.0,
+    "rb_rho": -0.7,
+    "T": 3.0,
+    "return_scale": 1.0,
+    "resolutions": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "train_noise_levels": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "val_noise_levels": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_noise_levels": [
+      0.0,
+      0.1
+    ],
+    "temporal_lag": 1,
+    "roughness_lag": 4,
+    "smooth_window": 4,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.15,
+    "batch_size": 16,
+    "validation_batch_size": 16,
+    "cache_build_batch": 32,
+    "lr": 0.002,
+    "weight_decay": 1e-05,
+    "epochs": 40,
+    "patience": 8,
+    "grad_clip": 1.0,
+    "bootstrap": 500,
+    "recent_windows": [
+      64,
+      128
+    ],
+    "context_lengths": [
+      384
+    ],
+    "local_swap_distances": [
+      1,
+      2,
+      4
+    ],
+    "matched_sample_count": 1000,
+    "matched_amplitude_fraction": 0.75,
+    "cache_dtype": "float32",
+    "keep_cache": false,
+    "seeds": [
+      42,
+      123,
+      2024
+    ],
+    "out_dir": "(unused reference setting)",
+    "device": "cpu",
+    "context_length": 384,
+    "generators": [
+      "bss",
+      "rbergomi"
+    ],
+    "benchmark_scales": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "dfa_scales": [
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "conditions": [
+    "baseline",
+    "level_0.25",
+    "level_4",
+    "eta_0.5",
+    "eta_1.5",
+    "smooth_level"
+  ],
+  "H": [
+    0.1,
+    0.25,
+    0.4
+  ],
+  "bootstrap_replicates": 2000,
+  "protocol_sha256": "616f50a0f191e139dff76c49cec7e8ab1b528ab9799533b36cc5c0d4113d6f25",
+  "source_files_verified": 41
+}

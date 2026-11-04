@@ -1,0 +1,211 @@
+{
+  "sources": [
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "code/neural_benchmark.py",
+      "sha256": "35b6098858a7c3e2ea9875eb74dc1c9fbe991a9df288c58a78d37ae4c993ab35"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "code/protocol.py",
+      "sha256": "12c5ef750a9a060045c127bdf63879809f3eb2c5ea71b6fba9bc658c620696f4"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "code/reference_numeric.py",
+      "sha256": "22c080ce5fdd907199a1bbe236fee44e9ee4688687a6e6fa15d64a3d9762b4d3"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/code/HurstNeuralEstimator_v2_13_effective_memory_saturation_memoryfix.py",
+      "sha256": "d530bbc5a50715740068cdaf398357291c338458cdcc42580783837d9ec4298a"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/code/HurstNeuralEstimator_v2_15_empirical_crypto_multiasset.py",
+      "sha256": "14fee8c217c21e0e7001824ed88063afd570e4520287ccc9564115d8abb9353d"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/code/HurstNeuralEstimator_v2_22_synthetic_classical_benchmark.py",
+      "sha256": "9675e68c1d4cbc96716f7908d1454bf04ed3b240104d976acc9bc022b1397669"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/code/ccpe_parallel_feature_benchmark.py",
+      "sha256": "e3bd6ae2633a9ad2af0f5a8f9f422924f0f6aaa10972edbbdb6646c4528305a0"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/code/matched_features.py",
+      "sha256": "c47347999eb1f1f649ee8739453e9d0cf8d80b2648799b470eba3a66a10d6113"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/code/matched_retraining.py",
+      "sha256": "a5091ef243b92ed74d1d7e9b8d4b70cfb5f1d99c305dfb7c44761e0c9c040224"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/code/profile_stages_reference.py",
+      "sha256": "2119390a0170e9e9cd3c0f6f6775e8241591d7388b4ffa4ab4cfefc81362c040"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/config.json",
+      "sha256": "c932427b4fb5066d0537ae90ec8941a68fd788cf01f90233c2c67e2ae4bab52f",
+      "original_sha256": "a721e50c2d3c71f7a71834c06674fdd452a7ac9c37a984ed9b57c24b2af3a9f2"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_123/architecture.json",
+      "sha256": "f233da441a9cf8157fea571e4f8cb6b1c645e94a7fd835283c545a2908600fb5"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_123/model.pt",
+      "sha256": "19f0d13884dc80fa59513e0312ba271981635c2213bb072bfa2c74e1acfe930c"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_123/training_history.csv",
+      "sha256": "2ab9af96945bd8d7cf11b7d62c379da896ab6e0d5cf2162264e079e34915ec08"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_2024/architecture.json",
+      "sha256": "f233da441a9cf8157fea571e4f8cb6b1c645e94a7fd835283c545a2908600fb5"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_2024/model.pt",
+      "sha256": "d5934fed63cd326e25377aa9fba088dcc791ee4e77e6262e9cad2b2aad26e926"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_2024/training_history.csv",
+      "sha256": "3313c40c7bbdf9f0094d156ad535c3c03939edb2413aa1aebcf3d8c981cde347"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_42/architecture.json",
+      "sha256": "f233da441a9cf8157fea571e4f8cb6b1c645e94a7fd835283c545a2908600fb5"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_42/model.pt",
+      "sha256": "df99aa479d076c336704eee4798e2e712a2579cd7aa3906d3c2a29fdfc1e23a7"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/multi_original/seed_42/training_history.csv",
+      "sha256": "09d1d9b364e18148b0b6b158efc453fa843aaada61503355fdbe2f80adf2100b"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_123/architecture.json",
+      "sha256": "d3fc8576d9c3ca9f4fc42864a5126a7d7ad8e489a20d1adb1045bc91c388fd98"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_123/model.pt",
+      "sha256": "285f3fd4ef169b3ddbb6a4d0106909e2b0d3c2bcc26b8aa12811743bcc181ad0"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_123/training_history.csv",
+      "sha256": "7d56a547334813ed0da15e8b85eea7ffbae7cbea4b3b1686ae73b680e17e81fc"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_2024/architecture.json",
+      "sha256": "d3fc8576d9c3ca9f4fc42864a5126a7d7ad8e489a20d1adb1045bc91c388fd98"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_2024/model.pt",
+      "sha256": "5939e88a781743cb990804e288c3b037ff252dcb6fd02397537367b918b778ec"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_2024/training_history.csv",
+      "sha256": "bdca176ac91b764e54814c031111b434e76794d08eef4bb27427bbd1cdd3d0f0"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_42/architecture.json",
+      "sha256": "d3fc8576d9c3ca9f4fc42864a5126a7d7ad8e489a20d1adb1045bc91c388fd98"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_42/model.pt",
+      "sha256": "cc3705f6c677e9bb81dd927dcc8a0021873643d6cb2ce8ac5ce9b0e1283540ee"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_derived/seed_42/training_history.csv",
+      "sha256": "96950cc8763648502328f4871c3764c38f6fd0fb3923ffcc487df43937969f79"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_123/architecture.json",
+      "sha256": "d5c858af5e2968ce09ca4c71d021400a1036ca180f6d38bea240d4b63b3c91bf"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_123/model.pt",
+      "sha256": "5ae76d1fc5f39bb512a5b7fce249903cde264bc3cc55ea9815e4d80659791e1e"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_123/training_history.csv",
+      "sha256": "baf90db5f70c121ec1f63cf06270c4f222c12fe38b71ccabdecae8ec5df8bb67"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_2024/architecture.json",
+      "sha256": "d5c858af5e2968ce09ca4c71d021400a1036ca180f6d38bea240d4b63b3c91bf"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_2024/model.pt",
+      "sha256": "c9327fba1144da2805ada914d2a984bb96e680ed7bb77839b10ed30953ba027f"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_2024/training_history.csv",
+      "sha256": "40474ff87b287e419866f00c38307e8571974a28e4f7d1bfa9f99aa49f38fb34"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_42/architecture.json",
+      "sha256": "d5c858af5e2968ce09ca4c71d021400a1036ca180f6d38bea240d4b63b3c91bf"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_42/model.pt",
+      "sha256": "70b1cd972cd2b006f187d671b6efe96b43e93dcfbe5fe46a0a6e850cc9249d26"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/models/single_raw/seed_42/training_history.csv",
+      "sha256": "44ad0ca72de5213f61422422680d4f281e95d688a27c67ce6715f4ccc1077187"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/multi_original_scaler.npz",
+      "sha256": "dc99bbe4bb305cf79658028e99de80bacc48a01cab5ccfe0eea52432aee5d6d3"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/single_derived_scaler.npz",
+      "sha256": "f1766cbd54af041f7598786a499c005f858488523e700e539952d0339878a118"
+    },
+    {
+      "source": "source bundle supplied for the Fixed-H computational handoff",
+      "destination": "reference/single_raw_scaler.npz",
+      "sha256": "94aac0445ae28a8c7b51f9038a59e97958242a3dafa1dcd6b2afe9437c0761b6"
+    }
+  ],
+  "note": "Absolute workstation paths were removed. reference/config.json was made portable by changing only config.out_dir to runs/recomputed; original_sha256 records the pre-normalization hash."
+}

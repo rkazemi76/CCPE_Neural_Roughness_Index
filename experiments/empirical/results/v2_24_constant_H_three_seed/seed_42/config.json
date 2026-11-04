@@ -1,0 +1,30 @@
+{
+  "basis": "ORIGINAL_v2.7 stochastic-H simulator via v2.13 memoryfix; v2.7-fix1 not used",
+  "h_mode": "constant",
+  "checkpoint": "checkpoints\\seed_42\\model_state_W384.pt",
+  "standardizer": "checkpoints\\seed_42\\standardizer_W384.npz",
+  "context_length": 384,
+  "sequence_length": 768,
+  "h_block": 32,
+  "h_phi": 0.97,
+  "h_latent_sd": 2.0,
+  "generators": [
+    "bss",
+    "rbergomi"
+  ],
+  "noise_levels": [
+    0.0375,
+    0.0875
+  ],
+  "n_calibration_per_generator": 500,
+  "n_test_per_generator": 1500,
+  "calibration": "separate synthetic sample; affine mapping H_last ~ classical_estimate fit per generator and noise; predictions clipped to known support [0.05, 0.50]",
+  "target": "H_last; context-mean oracle uses true mean H over final W=384 observations and is not observable",
+  "classical_series": "finest-resolution M=64 log realized variance over same final 384 observations",
+  "bootstrap": "paired iid test-path bootstrap; calibration sample uncertainty not included",
+  "bootstrap_reps": 2000,
+  "test_seed": 20261023,
+  "calibration_seed": 314159,
+  "device": "cpu",
+  "fast_convolution": "scipy FFT convolution replacing numpy full convolution in simulator; same linear convolution up to floating-point tolerance"
+}

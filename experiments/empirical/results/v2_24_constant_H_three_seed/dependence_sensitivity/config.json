@@ -1,0 +1,14 @@
+{
+  "purpose": "Dependence-aware sensitivity analysis of temporal dispersion of empirical H estimates under an approximate constant-H measurement-error reference",
+  "empirical series": "57 non-overlapping windows per asset; H_neural_mean averages seeds 42,123,2024",
+  "synthetic reference": "matched three-checkpoint ensemble (42, 123, 2024); independent constant-H contexts with AR(1)-residual sensitivity; residuals from local linear Hhat~Htrue response",
+  "dependence handling": "moving-block bootstrap of empirical H series for SD uncertainty; synthetic residual AR(1) sensitivity uses empirical lag-1 rho and Fisher-z upper bound",
+  "not a formal test": "the AR(1) residual sensitivity is an approximation, not a continuous-long-path parametric bootstrap; interpret results descriptively",
+  "reps": 10000,
+  "local_h_band": 0.025,
+  "noise_levels": [
+    0.0375,
+    0.0875
+  ],
+  "seed": 20261024
+}

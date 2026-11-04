@@ -1,0 +1,16 @@
+{
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "input_root": "results_hurst_v2_15_empirical_crypto_multiasset",
+  "bootstrap": 5000,
+  "wild_bootstrap": 5000,
+  "block_len": 4,
+  "seed": 20261008,
+  "focus": "1-day future log-RV ~ current 1-day log-RV + Neural H",
+  "no_neural_retraining": true
+}

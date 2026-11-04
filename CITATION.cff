@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript. Update this metadata with the DOI after publication."
+title: "A Simulation-to-Estimation Framework for a Neural Roughness Index in Cryptocurrency Volatility: Synthetic Validation, Exploratory Empirical Forecasting, and Computational Evaluation"
+version: 1.0.0
+date-released: 2026-11-04
+type: software
+authors:
+  - family-names: Kazemi
+    given-names: Reza
+    affiliation: Department of Financial Mathematics, Allameh Tabataba'i University
+  - family-names: Banihashemi
+    given-names: Shokoofeh
+    affiliation: Department of Financial Mathematics, Allameh Tabataba'i University

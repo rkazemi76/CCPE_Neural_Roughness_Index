@@ -1,0 +1,56 @@
+{
+  "model_root": "results_hurst_v2_13_effective_memory_saturation",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "interval": "1m",
+  "start_date": "2024-01-01",
+  "end_date": "2026-09-01",
+  "context_length": 384,
+  "fine_bars_per_observation": 64,
+  "resolutions": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "stride_observations": 384,
+  "rolling_diagnostic_stride": 0,
+  "min_valid_windows": 20,
+  "temporal_lag": 1,
+  "roughness_lag": 4,
+  "smooth_window": 4,
+  "benchmark_scales": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "dfa_scales": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "future_rv_minutes": 1440,
+  "bootstrap": 1000,
+  "bootstrap_block": 4,
+  "max_bootstrap_n": 100000,
+  "inference_batch_size": 16,
+  "http_timeout": 60,
+  "download_dir": "binance_cache_v2_15",
+  "out_dir": "results_hurst_v2_15_empirical_crypto_multiasset",
+  "h_min": 0.05,
+  "h_max": 0.5,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.15,
+  "device": "auto"
+}

@@ -1,0 +1,5 @@
+numpy>=1.24,<3
+pandas>=2,<3
+scipy>=1.10,<2
+psutil>=5.9,<8
+# Install real CPU PyTorch separately using the command in README_FA.md.

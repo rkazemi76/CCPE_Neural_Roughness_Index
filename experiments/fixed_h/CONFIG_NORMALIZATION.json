@@ -1,0 +1,9 @@
+{
+  "file": "reference/config.json",
+  "field": "config.out_dir",
+  "original_value_redacted": "author-local absolute Windows output path",
+  "published_value": "runs/recomputed",
+  "original_sha256": "a721e50c2d3c71f7a71834c06674fdd452a7ac9c37a984ed9b57c24b2af3a9f2",
+  "published_sha256": "c932427b4fb5066d0537ae90ec8941a68fd788cf01f90233c2c67e2ae4bab52f",
+  "reason": "Remove workstation-specific absolute path and make execution portable; no numerical model or simulation parameter was changed."
+}

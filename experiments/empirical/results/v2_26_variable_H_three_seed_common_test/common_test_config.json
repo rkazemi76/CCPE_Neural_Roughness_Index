@@ -1,0 +1,15 @@
+{
+  "source_script": "HurstNeuralEstimator_v2_13_effective_memory_saturation_memoryfix.py",
+  "checkpoint_root": "F:\\edu\\Phd\\my paper\\crypto\\code\\upgreate\\Reproducibility_Package_Roughness_Crypto_v0_6\\checkpoints",
+  "seeds": [
+    42,
+    123,
+    2024
+  ],
+  "n_test": 1500,
+  "test_seed": 230261026,
+  "context_length": 384,
+  "device": "cpu",
+  "shared_test_paths_across_models": true,
+  "note": "All checkpoints are evaluated on identical generated paths within each generator/noise setting."
+}

@@ -1,0 +1,18 @@
+{
+  "input_root": "results_hurst_v2_15_empirical_crypto_multiasset",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "bootstrap": 5000,
+  "bootstrap_block": 4,
+  "permutations": 5000,
+  "seed": 20261007,
+  "min_n": 20,
+  "future_col": "future_log_rv_1d",
+  "out_dir": "results_hurst_v2_16_regime_statistical_validation",
+  "hac_lags": 4
+}

@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.10,<2
+statsmodels>=0.14,<1
+matplotlib>=3.7,<4
+psutil>=5.9,<8
+# PyTorch is required for v2.13/v2.15 model training and inference; install a platform-appropriate CPU/GPU build separately.

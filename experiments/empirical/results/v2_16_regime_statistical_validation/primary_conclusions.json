@@ -1,0 +1,34 @@
+{
+  "primary_context": 384,
+  "primary_assets": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "temporal_variation_exceeds_seed_sd_for_all_assets": true,
+  "assets_with_positive_lag1_persistence": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "assets_with_fdr_supported_lag1_persistence_q_le_0_05": [
+    "BTCUSDT",
+    "XRPUSDT"
+  ],
+  "assets_with_positive_high_minus_low_future_logrv": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "assets_with_fdr_supported_high_low_future_logrv_q_le_0_05": [
+    "BTCUSDT",
+    "XRPUSDT"
+  ],
+  "mean_pairwise_H_correlation": 0.4920175558080686
+}

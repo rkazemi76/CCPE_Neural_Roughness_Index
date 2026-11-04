@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "neural_smoke_passed": true,
+  "full_passed": true,
+  "smoke_only": false,
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "release_manifest_sha256": "996721e573efa3018e908d136f652e5c5908029f8fe0aff79b54561d4e127497",
+  "return_archive_omits": "features.npz only; retained locally with hashes, regenerate from frozen code/seed if needed"
+}

@@ -1,0 +1,6 @@
+model,n_oos,n_timestamps
+GARCH11_RV,155,31
+HAR_RV,155,31
+HAR_RV_plus_Neural_H,155,31
+HAR_RV_plus_Variogram_H,155,31
+Naive_Current_RV,155,31

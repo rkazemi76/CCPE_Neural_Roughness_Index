@@ -1,0 +1,7 @@
+{
+  "primary_positive_and_supported": true,
+  "all_leave_one_asset_out_betas_positive": true,
+  "joint_asset_specific_H_rejection": true,
+  "variogram_controlled_H_rejection": false,
+  "interpretation": "The analysis tests incremental predictive information of Neural H beyond matched-horizon current realized volatility. It does not establish causality. Inference is organized around common timestamps because the five assets share the same 57 non-overlapping empirical windows."
+}

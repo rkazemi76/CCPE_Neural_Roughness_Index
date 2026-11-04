@@ -1,0 +1,20 @@
+{
+  "worker_counts": [
+    2,
+    4,
+    6
+  ],
+  "generators": [
+    "bss",
+    "rbergomi"
+  ],
+  "designs": [
+    "strong",
+    "weak"
+  ],
+  "paired_repetitions_per_condition": 9,
+  "total_paired_comparisons": 108,
+  "maximum_absolute_feature_difference": 0.0,
+  "all_serial_parallel_feature_arrays_equal_at_stored_float32_precision": true,
+  "comparison_key": "deterministic path seed and feature-array elementwise comparison"
+}

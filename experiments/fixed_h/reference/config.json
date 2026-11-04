@@ -1,0 +1,127 @@
+{
+  "mode": "full",
+  "model_seeds": [
+    42,
+    123,
+    2024
+  ],
+  "data_seed": 190317,
+  "n_calibration_per_generator": 400,
+  "n_test_per_generator": 1500,
+  "config": {
+    "n_train": 4000,
+    "n_val": 1000,
+    "n_test": 1500,
+    "seq_len": 768,
+    "h_min": 0.05,
+    "h_max": 0.5,
+    "h_block": 32,
+    "h_phi": 0.97,
+    "h_latent_sd": 2.0,
+    "bss_kernel_lambda": 0.08,
+    "bss_kernel_size": 512,
+    "bss_burn_in": 512,
+    "bss_xi": 0.04,
+    "bss_eta": 1.0,
+    "rb_xi0": 0.04,
+    "rb_eta": 1.0,
+    "rb_rho": -0.7,
+    "T": 3.0,
+    "return_scale": 1.0,
+    "resolutions": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "train_noise_levels": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "val_noise_levels": [
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_noise_levels": [
+      0.0,
+      0.0375,
+      0.0875,
+      0.1
+    ],
+    "temporal_lag": 1,
+    "roughness_lag": 4,
+    "smooth_window": 4,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.15,
+    "batch_size": 16,
+    "validation_batch_size": 16,
+    "cache_build_batch": 32,
+    "lr": 0.002,
+    "weight_decay": 1e-05,
+    "epochs": 40,
+    "patience": 8,
+    "grad_clip": 1.0,
+    "bootstrap": 500,
+    "recent_windows": [
+      64,
+      128
+    ],
+    "context_lengths": [
+      384
+    ],
+    "local_swap_distances": [
+      1,
+      2,
+      4
+    ],
+    "matched_sample_count": 1000,
+    "matched_amplitude_fraction": 0.75,
+    "cache_dtype": "float16",
+    "keep_cache": false,
+    "seeds": [
+      42,
+      123,
+      2024
+    ],
+    "out_dir": "runs/recomputed",
+    "device": "cpu",
+    "context_length": 384,
+    "generators": [
+      "bss",
+      "rbergomi"
+    ],
+    "benchmark_scales": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "dfa_scales": [
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "representation_definitions": {
+    "single_raw": "final 384 points of finest-resolution (M=64) logRV channel only",
+    "single_derived": "six features recomputed solely from the same finest-channel window",
+    "multi_original": "original multi-resolution multichannel final-window features"
+  },
+  "calibration": "independent, per H-mode/generator/noise cell, affine then clip to [0.05,0.50]",
+  "simulation_backend": "v2.22 FFT convolution proxy and float32 observation cache",
+  "cache_dtype": "float32 (reference default was float16); no claim of exact training replication",
+  "capacity": "same hidden architecture, differing input-layer parameter counts; not capacity-matched",
+  "calibration_caveat": "H-mode and generator labels condition calibration; simulation-only, not deployable without labels",
+  "scope": "fresh stochastic-H training; independent stochastic-H and constant-H evaluation; fixed datasets across model seeds"
+}

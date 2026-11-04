@@ -1,0 +1,13 @@
+{
+  "source_hashes": true,
+  "paired_drivers_and_H": true,
+  "finite_features": true,
+  "noiseless_logrv_scale_control": true,
+  "baseline_generator_parity": true,
+  "unique_design_rows": true,
+  "expected_row_count": true,
+  "real_torch_inference": true,
+  "batch_serial_parity": true,
+  "ensemble_parity": true,
+  "finite_bounded_neural_predictions": true
+}

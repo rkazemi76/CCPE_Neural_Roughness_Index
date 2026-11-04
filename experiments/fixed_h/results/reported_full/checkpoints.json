@@ -1,0 +1,20 @@
+{
+  "single_raw": {
+    "reference\\models\\single_raw\\seed_123\\model.pt": "5ae76d1fc5f39bb512a5b7fce249903cde264bc3cc55ea9815e4d80659791e1e",
+    "reference\\models\\single_raw\\seed_2024\\model.pt": "c9327fba1144da2805ada914d2a984bb96e680ed7bb77839b10ed30953ba027f",
+    "reference\\models\\single_raw\\seed_42\\model.pt": "70b1cd972cd2b006f187d671b6efe96b43e93dcfbe5fe46a0a6e850cc9249d26",
+    "reference\\single_raw_scaler.npz": "94aac0445ae28a8c7b51f9038a59e97958242a3dafa1dcd6b2afe9437c0761b6"
+  },
+  "single_derived": {
+    "reference\\models\\single_derived\\seed_123\\model.pt": "285f3fd4ef169b3ddbb6a4d0106909e2b0d3c2bcc26b8aa12811743bcc181ad0",
+    "reference\\models\\single_derived\\seed_2024\\model.pt": "5939e88a781743cb990804e288c3b037ff252dcb6fd02397537367b918b778ec",
+    "reference\\models\\single_derived\\seed_42\\model.pt": "cc3705f6c677e9bb81dd927dcc8a0021873643d6cb2ce8ac5ce9b0e1283540ee",
+    "reference\\single_derived_scaler.npz": "f1766cbd54af041f7598786a499c005f858488523e700e539952d0339878a118"
+  },
+  "multi_original": {
+    "reference\\models\\multi_original\\seed_123\\model.pt": "19f0d13884dc80fa59513e0312ba271981635c2213bb072bfa2c74e1acfe930c",
+    "reference\\models\\multi_original\\seed_2024\\model.pt": "d5934fed63cd326e25377aa9fba088dcc791ee4e77e6262e9cad2b2aad26e926",
+    "reference\\models\\multi_original\\seed_42\\model.pt": "df99aa479d076c336704eee4798e2e712a2579cd7aa3906d3c2a29fdfc1e23a7",
+    "reference\\multi_original_scaler.npz": "dc99bbe4bb305cf79658028e99de80bacc48a01cab5ccfe0eea52432aee5d6d3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "n_asset_horizon_tests": 15,
+  "robust_positive_cells_both_FDR_and_bootstrap": 0,
+  "robust_positive_asset_horizons": [],
+  "best_horizon_by_mean_incremental_R2": "1d",
+  "pooled_results": [
+    {
+      "horizon": "6h",
+      "n": 285,
+      "n_assets": 5,
+      "beta_H_cluster_timestamp": 1.6931844481531382,
+      "se_H_cluster_timestamp": 1.1610132626181737,
+      "p_H_cluster_timestamp": 0.14473916970414588,
+      "R2": 0.551781856712472,
+      "adj_R2": 0.5421080838357628
+    },
+    {
+      "horizon": "1d",
+      "n": 285,
+      "n_assets": 5,
+      "beta_H_cluster_timestamp": 3.7002552358522385,
+      "se_H_cluster_timestamp": 1.625624955230713,
+      "p_H_cluster_timestamp": 0.022833758089019284,
+      "R2": 0.43088671415024205,
+      "adj_R2": 0.4186036935923335
+    },
+    {
+      "horizon": "3d",
+      "n": 280,
+      "n_assets": 5,
+      "beta_H_cluster_timestamp": 1.711512870639528,
+      "se_H_cluster_timestamp": 1.2664635141331526,
+      "p_H_cluster_timestamp": 0.17656377502571474,
+      "R2": 0.4848344632270244,
+      "adj_R2": 0.4735121437375085
+    }
+  ],
+  "interpretation_note": "These are predictive incremental-information tests, not causal effects. Horizon-specific controls are matched to each future-volatility horizon."
+}

@@ -1,0 +1,14 @@
+{
+  "n_assets": 5,
+  "mean_of_asset_mean_H": 0.18983254456206367,
+  "mean_of_asset_temporal_sd_H": 0.05970595155550695,
+  "mean_of_asset_temporal_to_seed_ratio": 1.838342961800454,
+  "mean_same_regime_rate": 0.3821428571428572,
+  "mean_high_stay_probability": 0.4152046783625731,
+  "mean_low_stay_probability": 0.3894736842105263,
+  "mean_future_high_minus_low_logrv": 0.6652497933741316,
+  "mean_H_future_logrv_corr": 0.3129769263798366,
+  "mean_H_variogram_corr": 0.4073053732286918,
+  "cross_asset_common_window_H_sd": 0.046123039121044596,
+  "mean_pairwise_H_corr": 0.4920175558080686
+}
